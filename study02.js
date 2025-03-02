@@ -4,8 +4,30 @@
 //------------------------------
 // var
 
+var aa //Global
+
 
 // let
-
+let bb //Local
 
 // const
+
+const cc = 30; //Local
+
+aa = 15;
+bb = 25;
+{
+    var wow = 10;
+    {
+        console.log(wow);
+        let wee = 20
+        const woo = 30
+        console.log(wee);
+        console.log(woo);
+    }
+    {
+        // console.log(wee); error
+        // console.log(woo)
+    }
+
+}
